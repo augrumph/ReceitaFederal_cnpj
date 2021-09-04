@@ -1,26 +1,39 @@
 # ReceitaFederal_cnpj
-* Bibliotecas a serem importadas :
 
-    -> urllib.request
-    -> io
-    -> zipfile
-    -> pathlib
-    -> os
-    -> pandas
-    -> csv
-    -> pymongo
-    -> json
+-> Resumo :
 
-* Realizar a instalacao de todas as bilbiotecas python :
+    * Scraper para retirada automatica de dados de CNPJs a partir dos dados publicos da Receita Federal.
 
-    -> VSCode(Terminal):
-        . py -m pip install nome_bilbioteca
+-> Fonte dos dados :
 
-    ->Jupyter Notebook:
-        . conda install nome_bilbioteca
+    * https://www.gov.br/receitafederal/pt-br/assuntos/orientacao-tributaria/cadastros/consultas/dados-publicos-cnpj
+    
+-> Downloads e instalações necessarias :
 
-* Realizar o download e instalacao do MongoDB com o Compass para vizualizacao dos dados.
-* https://www.mongodb.com/try/download/community
+    * Bibliotecas a serem importadas :
+
+        -> urllib.request
+        -> io
+        -> zipfile
+        -> pathlib
+        -> os
+        -> pandas
+        -> csv
+        -> pymongo
+        -> json
+
+    * Realizar a instalacao de todas as bilbiotecas python :
+
+        -> VSCode(Terminal):
+            . py -m pip install nome_bilbioteca
+
+        ->Jupyter Notebook:
+            . conda install nome_bilbioteca
+
+    * Realizar o download e instalacao do MongoDB com o Compass para vizualizacao dos dados.
+
+    * https://www.mongodb.com/try/download/community
+    
 -> Windows Task Scheduler:
 
     * Abrir o WTS no windows, criar uma nova task e clicar em Actions e criar uma nova acao.
